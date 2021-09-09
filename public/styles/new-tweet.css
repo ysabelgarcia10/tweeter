@@ -40,7 +40,7 @@
   border: 2px solid #f6bd60;
 }
 
-#error-message-container {
+#new-error-message {
   display: flex;
   justify-content: center;
   align-items: center;

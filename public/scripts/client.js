@@ -29,6 +29,12 @@ $(() => {
 
   //create a single post/node
   const createTweetElement = (tweet) => {
+    const escape = function (str) {
+      let div = document.createElement("div");
+      div.appendChild(document.createTextNode(str));
+      return div.innerHTML;
+    };
+    
     //jquery take this stringified HTML and is read as HTML by the browser?
     const $tweetHTML = 
     `<header class="icon-name-handle">
@@ -82,10 +88,21 @@ $(() => {
 
     //if input is empty -->
     if (!$('.tweet-text-area').val()) {
-      $('#error-message-container').html('&#9888; Uh Oh! You submitted an empty tweet! Try again. :( &#9888;').slideDown().delay(5000).fadeOut();
+      //add a new class before rendering error message
+      $('#error-message-container').html(` 
+      <div id="new-error-message">
+        &#9888; Uh Oh! You submitted an empty tweet! Try again. :( &#9888;
+      </div>`)
+      .slideDown().delay(5000).fadeOut();
       return;
+    
     } else if ($('.tweet-text-area').val().length > 140) {
-      $('#error-message-container').html('&#9888; Uh Oh! Your tweet was too long. Try again :( &#9888;').slideDown().delay(5000).fadeOut();
+      $('#error-message-container').html(` 
+      <div id="new-error-message">
+        &#9888; Uh Oh! Your tweet was too long. Try again :( &#9888;
+      </div>`)
+      .slideDown().delay(5000).fadeOut();
+    
     } else {
       //if input is good.
       $.post('/tweets', serializedData, (response) => {
