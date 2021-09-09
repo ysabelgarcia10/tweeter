@@ -15,11 +15,78 @@ html {
  */
 
 body {
-  color: #545149;
-  background-color: #f4f1ec;
+  display: flex;
+  color: #000000;
+  background-color: #F7EDE2;
   font-size: 24px;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+h2 {
+  font-weight: normal;
+}
+
+.container {
+  width: 90%;
+  background-color: #F7EDE2;
+}
+
+
+.tweet-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 3px;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.icon-name-handle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: normal;
+}
+
+.icon-with-name {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: flex-start;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.time-with-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.interact-icons {
+  display: flex;
+  width: 85px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+
+.post {
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  border-bottom: 2px;
+  border-bottom-style:solid;
+  border-color: #000000;
+}
