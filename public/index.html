@@ -40,34 +40,36 @@
       </div>
     </nav>
 
-    <!-- Profile section - user and avatar -->
-    <header class="profile">
-      <div class="avatar-header">
-          <img src="/images/lucky-profile-pic.png"> 
-      </div>
-      <div class="profile-name">
-          <h2 class="first-last-name"> Lucky &#127808;</h2>
-          <h2 class="bio">Boops. Naps. Snackz.</h2>
-      </div>
-    </header>
-
-    <!-- Page-specific (main) content here -->
-    <main class="container">
-      <section class="new-tweet">
-        <div id="error-message-container">
-       
+    <div class="header-and-main">
+      <!-- Profile section - user and avatar -->
+      <header class="profile">
+        <div class="avatar-header">
+            <img src="/images/lucky-profile-pic.png"> 
         </div>
-        <form class="new-tweet-form">
-          <textarea class="tweet-text-area" name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
-          <div class="submit-counter">
-            <button class="submit-button" type="submit">Tweet</button>
-            <output name="counter" class="counter" for="tweet-text">140</output>
-          </div>
-        </form>
-      </section>
-      <section class="all-posts-container">
+        <div class="profile-name">
+            <h2 class="first-last-name"> Lucky &#127808;</h2>
+            <h2 class="bio">Boops. Naps. Snackz.</h2>
+        </div>
+      </header>
 
-      </section>
-    </main>
+      <!-- Page-specific (main) content here -->
+      <main class="container">
+        <section class="new-tweet">
+          <div id="error-message-container">
+          <!-- insert validation messages here regarding tweets -->
+          </div>
+          <form class="new-tweet-form">
+            <textarea class="tweet-text-area" name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+            <div class="submit-counter">
+              <button class="submit-button" type="submit">Tweet</button>
+              <output name="counter" class="counter" for="tweet-text">140</output>
+            </div>
+          </form>
+        </section>
+        <section class="all-posts-container">
+          <!-- this section houses one or a collection of tweets -->
+        </section>
+      </main>
+    </div>
   </body>
 </html>

@@ -25,8 +25,10 @@ $(() => {
     })
   }
 
+  //load tweets upon entry to page
   loadTweets();
 
+  //during the submit event
   const $form = $('.new-tweet-form');
   $form.on('submit', function(event) {
     event.preventDefault();
@@ -42,20 +44,20 @@ $(() => {
       <div id="new-error-message">
         &#9888; Uh Oh! You submitted an empty tweet! Try again. :( &#9888;
       </div>`)
-      .slideDown().delay(5000).fadeOut();
+      .slideDown().delay(5000).slideUp();
       return;
-    
+
     } else if ($('.tweet-text-area').val().length > 140) {
       $('#error-message-container').html(` 
       <div id="new-error-message">
         &#9888; Uh Oh! Your tweet was too long. Try again :( &#9888;
       </div>`)
-      .slideDown().delay(5000).fadeOut();
+      .slideDown().delay(5000).slideUp();
     
     } else {
       //if input is good.
       $.post('/tweets', serializedData, (response) => {
-        console.log(response);
+        $(".counter").text(140);
         loadTweets();
       })
       $('.tweet-text-area').val("");

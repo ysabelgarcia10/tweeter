@@ -35,6 +35,7 @@ h2 {
 .container {
   width: 90%;
   background-color: #F7EDE2;
+
 }
 
 
@@ -102,4 +103,20 @@ h2 {
 
 i:hover {
   color: #F28482;
+}
+
+.header-and-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-and-main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 95%;
+    margin: 2rem;
+  }
 }

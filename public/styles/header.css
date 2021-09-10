@@ -5,7 +5,7 @@
   align-items: center;
   height: 400px;
   margin-top: 400;
-  width: 100%;
+  width: 100vw;
   background-color: #f6bd60;
   background-image: url("/images/asfalt-light.png");
   top: 120px;
@@ -39,4 +39,15 @@
 .avatar-header > img {
   width: 75%;
   height: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .profile {
+    margin-right: 0rem;
+    width: 50vw;
+  }
+
+  .container {
+    margin-left: 4rem;
+  }
 }

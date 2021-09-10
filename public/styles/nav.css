@@ -46,3 +46,9 @@
   50%  {top: 5px;}
   100% {top: 0px;}
 }  
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    background-color: #F5CAC3;
+  }
+}
