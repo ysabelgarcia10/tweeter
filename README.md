@@ -4,6 +4,8 @@ Tweeter is a simple, single-page Twitter clone.
 
 This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express and MongoDB back-end skills.
 
+As shown in the GIFs below, the profile belongs to the author's dog, Lucky, who is celebrating his 16th birthday on the day of this project's submission.
+
 
 ## Results
 <img src="https://media.giphy.com/media/CJwFP0xdhIKWOZpY6Z/giphy.gif?cid=790b7611294a09694af6e3096a08b5d6da92364837da0dbb&rid=giphy.gif&ct=g" width="800">
