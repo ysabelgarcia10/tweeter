@@ -1,6 +1,7 @@
 .banner {
   height: 120px;
   background-color: #f6bd60;
+  background-image: url("/images/asfalt-light.png");
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -23,6 +24,7 @@
   font-family: 'SourceSansPro', sans-serif;
   font-weight: 300;
   margin-right: 1.5em;
+  font-size: 1.25rem;
   
 }
 
@@ -31,6 +33,16 @@
   margin-right: 5px;
 }
 
-i {
- color: #000000;
+
+#arrow-down {
+ color: #F28482;
+ text-shadow: 2px 3px 0px #61302f;
+ position: relative;
+ animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  0%   {top: 0px;}
+  50%  {top: 5px;}
+  100% {top: 0px;}
 }  

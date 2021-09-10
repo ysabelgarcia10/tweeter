@@ -1,24 +1,24 @@
 [
   {
     "user": {
-      "name": "Newton",
+      "name": "Snoop Dogg",
       "avatars": "https://i.imgur.com/73hZDYK.png",
-      "handle": "@SirIsaac"
+      "handle": "@SnoopDoggyDogg"
     },
     "content": {
-      "text": "If I have seen further it is by standing on the shoulders of giants"
+      "text": "Happy bday, dawg! 🔥"
     },
-    "created_at": 1631041047894
+    "created_at": 1631065925485
   },
   {
     "user": {
-      "name": "Descartes",
+      "name": "Doja Cat",
       "avatars": "https://i.imgur.com/nlhLi3I.png",
-      "handle": "@rd"
+      "handle": "@Mooooo"
     },
     "content": {
-      "text": "Je pense , donc je suis"
+      "text": "Happy birthday to the goodest boi."
     },
-    "created_at": 1631127447894
+    "created_at": 1631152325485
   }
 ]

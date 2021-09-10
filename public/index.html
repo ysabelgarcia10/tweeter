@@ -36,17 +36,18 @@
           <span id="write">Write</span>
           <span id="a-new-tweet">a new tweet</span>
         </div>
-        <i class="fas fa-angle-double-down"></i>
+        <a href="#tweet-text"><i id="arrow-down" class="fas fa-angle-double-down"></i></a>
       </div>
     </nav>
 
     <!-- Profile section - user and avatar -->
     <header class="profile">
-      <div class="avatar">
-          <img src="/images/profile-hex.png"> 
+      <div class="avatar-header">
+          <img src="/images/lucky-profile-pic.png"> 
       </div>
       <div class="profile-name">
-          <h2 class="profile-first-last-name"><b>First</b> Last</h2>
+          <h2 class="first-last-name"> Lucky &#127808;</h2>
+          <h2 class="bio">Boops. Naps. Snackz.</h2>
       </div>
     </header>
 
@@ -56,10 +57,8 @@
         <div id="error-message-container">
        
         </div>
-        <h2 class="compose-tweet">Compose Tweet</h2>
         <form class="new-tweet-form">
-          <label for="tweet-text">What are you humming about?</label>
-          <textarea class="tweet-text-area" name="text" id="tweet-text"></textarea>
+          <textarea class="tweet-text-area" name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
           <div class="submit-counter">
             <button class="submit-button" type="submit">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>

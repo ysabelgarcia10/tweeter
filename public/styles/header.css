@@ -6,19 +6,37 @@
   height: 400px;
   margin-top: 400;
   width: 100%;
-  background-color: #F28482;
+  background-color: #f6bd60;
   background-image: url("/images/asfalt-light.png");
   top: 120px;
 }
 
 .profile-name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   font-family: 'SourceSansPro', sans-serif;
   font-weight: 300;
   color: #FFFFFF;
-}
-
-.profile-first-last-name {
-  font-weight: normal;
+  font-size: 1rem;
   margin-top: 10px;
 }
 
+.first-last-name {
+  font-weight: normal;
+  margin: 5px;
+}
+
+.bio {
+  font-size: 0.85rem;
+}
+.avatar-header {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-header > img {
+  width: 75%;
+  height: auto;
+}
