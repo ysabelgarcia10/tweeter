@@ -8,9 +8,9 @@ This repository is the starter code for the project: Students will fork and clon
 ## Results
 <img src="https://media.giphy.com/media/CJwFP0xdhIKWOZpY6Z/giphy.gif?cid=790b7611294a09694af6e3096a08b5d6da92364837da0dbb&rid=giphy.gif&ct=g" width="800">
 
-<img src="https://media.giphy.com/media/htWSvii8JTStmVI4SP/giphy.gif?cid=790b76118d86d20ebae512735d7aee5cf5149ebadbf439aa&rid=giphy.gif&ct=g" width="800")
+<img src="https://media.giphy.com/media/htWSvii8JTStmVI4SP/giphy.gif?cid=790b76118d86d20ebae512735d7aee5cf5149ebadbf439aa&rid=giphy.gif&ct=g" width="800">
 
-<img src"https://media.giphy.com/media/vYVR6jjyJbkICOG9vV/giphy.gif?cid=790b7611eb691de9680115b85a9143819c46bd91d25395e1&rid=giphy.gif&ct=g" width="800")
+<img src"https://media.giphy.com/media/vYVR6jjyJbkICOG9vV/giphy.gif?cid=790b7611eb691de9680115b85a9143819c46bd91d25395e1&rid=giphy.gif&ct=g" width="800">
 
 
 ## Getting Started
